@@ -31,13 +31,9 @@ app.use(cors())
 
 app.get('/', async (req, res) => {
 
-    //Get token from header
-    // var token = req.headers.authorization.substring(7)
-
-    // console.log(token)
-    var result = await friend.getAllFriends("ney")
-
-    res.send(result)
+    res.send({
+        message: "PGG is running woooh!"
+    })
 
 })
 
