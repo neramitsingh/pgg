@@ -15,7 +15,7 @@ const friend = require('./friend')
 
 
 const app = express()
-const port = 3030
+const port = 8080
 
 
 
